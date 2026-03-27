@@ -244,12 +244,20 @@
       <div class="columns is-centered is-full-width">
         <div class="column">
           <div class="content">
-            <iframe 
-              src="./website/static/image/comparison.pdf#toolbar=0" 
-              width="100%" 
-              height="600px" 
-              style="border: none;">
-            </iframe>
+            <div class="experiment-scroll-wrapper">
+              <div class="experiment-scroll-panel" aria-label="Scrollable experiments comparison viewer">
+                <img
+                  src="./website/static/image/comparison_scroll.png"
+                  alt="Comparison with feedforward 2D sewing pattern generation methods"
+                  class="experiment-scroll-image">
+              </div>
+              <div class="experiment-scroll-actions">
+                <a class="button is-light is-small" href="./website/static/image/comparison.pdf" target="_blank" rel="noopener noreferrer">
+                  Open PDF
+                </a>
+              </div>
+            </div>
+            <p class="experiment-scroll-hint">Scroll vertically to explore the full comparison figure.</p>
           </div>
         </div>
       </div>
